@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy.`object`
+package com.kbh.study.`object`
 
 /**
  * class 내부에 object를 기술하여 사용하는 companion object 를 학습한다.

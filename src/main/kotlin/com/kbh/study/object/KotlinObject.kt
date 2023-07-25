@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy.`object`
+package com.kbh.study.`object`
 
 /**
  * 생성자 없이 객체를 만드는 키워드 'object' 를 학습한다

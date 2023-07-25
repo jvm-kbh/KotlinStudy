@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy
+package com.kbh.study
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

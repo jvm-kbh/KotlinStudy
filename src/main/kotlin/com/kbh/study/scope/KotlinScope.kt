@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy.scope
+package com.kbh.study.scope
 
 /**
  * 각 프로그래밍 언어 안에서 구성요소(변수, 함수, 클래스)를 서로 공유하거나 제한하기 위한 것을 의미한다.

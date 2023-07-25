@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy.generic
+package com.kbh.study.generic
 
 fun main() {
     defaultArgumentFunction("짬뽕")

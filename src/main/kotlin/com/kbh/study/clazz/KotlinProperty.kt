@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy.clazz
+package com.kbh.study.clazz
 
 /**
  *  클래스가 속성만 가진경우 다음과 같이 선언이 가능하다.

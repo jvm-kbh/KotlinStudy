@@ -1,4 +1,4 @@
-package com.kbh.kotlinstudy.clazz
+package com.kbh.study.clazz
 
 // 클래스 선언부에 생성자 키워드를 생략이 가능하다
 class KotlinConstructor constructor(var name: String, var birthYear: Int) {
