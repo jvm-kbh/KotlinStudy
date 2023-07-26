@@ -13,3 +13,7 @@ fun kissFUnction() = "kiss"
  * 그래야만 다른 인터페이스의 구현에 의해서 다른 타입으로 변형되는 것을 방지하며, 명확하게 자료형을 확인하여 가독성이 좋아진다.
  */
 fun greet(): String = "hello"
+
+// 코틀린에서는 모든 함수를 표현식으로 취급하기 위해서 Unit 을 활용하여 의미있게 추후 프로세스를 위해 사용할 수 있게 되있다
+fun sayHello(): Unit = println("hello")
+val message: Unit = sayHello()
