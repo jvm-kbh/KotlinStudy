@@ -10,6 +10,16 @@ package com.kbh.study.clazz.advanced.sealed
  * 자식클래스의 생성자를 private로 명시하지 않는다면 상속받은 클래스를 통해서 객체를 생성할 수 있다.
  *
  * */
+
+enum class Suit(val symbolText: Char) {
+    CLUBS('\u2663'),
+    DIAMONDS('\u2666'),
+    HEARTS('\u2665'){
+        override fun display() = "${super.display()} $symbolText"
+    },
+    SPADES('\u2660');
+    open fun display() = "$symbolText $name"
+}
 sealed class Card(val suit:String)
 
 class Ace(suit: String) : Card(suit)
@@ -53,4 +63,12 @@ fun main(){
     println(process(Queen("Club")))
     println(process(Pip("Spades",2)))
     println(process(Pip("Hearts",6)))
+
+    //enum 인스턴스 얻기
+    val diamond= Suit.valueOf("DIAMONDS")
+    println(diamond)
+
+    for (suit in Suit.values()){
+        println(suit.display())
+    }
 }
